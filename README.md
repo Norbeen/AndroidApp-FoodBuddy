@@ -12,9 +12,7 @@ This food recipe app will let users find varieties of food recipes, user can cli
 
 ### Description
 [Recipe finder app]
-The user user will make an account on our Application, and will be able to proceeed from there. After an account creation, the user would be able see multiple food. Or the user could type in the food name and get the recipe of that food(searched food), with inclusion of the steps, an image of the dish and a hyper link to Youtube about the said dish if they would prefer a video step process.
-
-Additionally they user will have a shooping list note section for reminding them of what they need to buy for a specific cuisine.
+We created this app with an intention of giving power to the end user to pick and choose from varieties of ingrediets and cuisine. Trending section is where a user can see 28 different recipe, search section is where a user can see hundreds of recipes based on the most rated ingredients for food, and we have a joke section, you can enjoy while your food is cooking. Login and signup made possible using firebase and API fetched via Spoonacular api. 
 
 
 ### App Evaluation
@@ -63,23 +61,10 @@ Additionally they user will have a shooping list note section for reminding them
 
 Here's a walkthrough of implemented user stories:
 
-* Sprint 1
+* Gif 
 
-<img src='https://github.com/https-github-com-elisee10/FoodBuddy/blob/main/signup.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/https-github-com-elisee10/FoodBuddy/blob/main/sprint4.gif' title='Video Walkthrough' width='' alt='sprint 4' />
 
-
-<img src='https://github.com/https-github-com-elisee10/FoodBuddy/blob/main/login.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-
-* Sprint 2
-
-
-<img src='https://github.com/https-github-com-elisee10/FoodBuddy/blob/main/sprint2.gif' title='Video Walkthrough' width='' alt='sprint 2' />
-
-
-* Sprint 3
-
-<img src='https://github.com/https-github-com-elisee10/FoodBuddy/blob/main/sprint3.gif' title='Video Walkthrough' width='' alt='sprint 3' />
 
 
 
@@ -157,24 +142,6 @@ Here's a walkthrough of implemented user stories:
 ![wireframe](https://github.com/Norbeen/source/blob/main/Screen%20Shot%202020-11-09%20at%206.54.42%20PM.png?raw=true "wireframe")
 
 
-
-### [BONUS] Digital Wireframes & Mockups
-
-![appFront](https://github.com/Norbeen/source/blob/main/Screen%20Shot%202020-11-09%20at%206.19.12%20PM.png?raw=true "appFront")
-
-![search](https://github.com/Norbeen/source/blob/main/Screen%20Shot%202020-11-09%20at%206.19.23%20PM.png?raw=true "search")
-
-![trending](https://github.com/Norbeen/source/blob/main/Screen%20Shot%202020-11-09%20at%206.19.34%20PM.png?raw=true "trending")
-
-![profile](https://github.com/Norbeen/source/blob/main/Screen%20Shot%202020-11-09%20at%206.19.44%20PM.png?raw=true "profile")
-
-![detail](https://github.com/Norbeen/source/blob/main/Screen%20Shot%202020-11-09%20at%206.19.54%20PM.png?raw=true "detail")
-
-### [BONUS] Interactive Prototype
-
-## Schema 
-[This section will be completed in Unit 9]
-
 ### Models
 
   | Property      | Type     | Description |
@@ -212,8 +179,4 @@ Here's a walkthrough of implemented user stories:
     * post.setIngredient(ingredient);
     * post.saveInBackground(new SaveCallback() {
                 
-
-
-
-#### [OPTIONAL:] Existing API Endpoints
 
